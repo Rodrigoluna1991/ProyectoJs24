@@ -1,0 +1,121 @@
+:root {
+    --color-principal: #003366; /* Azul oscuro */
+    --color-secundario: #0056b3; /* Azul brillante */
+    --color-fondo: #f4f4f4; /* Gris claro */
+    --color-texto: #333; /* Gris oscuro */
+    --color-titulo: #ffcc00; /* Amarillo */
+    --color-boton: #007bff; /* Azul brillante */
+    --color-boton-hover: #0056b3; /* Azul mas oscuro */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: var(--color-texto);
+    background-color: var(--color-fondo);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--color-principal);
+    padding: 10px 0;
+}
+
+nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#centro {
+    text-align: center;
+    background-color: var(--color-principal);
+    padding: 20px;
+    color: white;
+}
+
+#imagen-centro {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+h2, h4 {
+    margin: 10px 0;
+}
+
+h1 {
+    text-align: center;
+    color: var(--color-titulo);
+    background-color: var(--color-principal);
+    padding: 10px;
+}
+
+#productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tarjeta-cubierta {
+    max-width: 400px;
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid var(--color-principal);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta-cubierta img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+button {
+    background-color: var(--color-boton);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--color-boton-hover);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--color-principal);
+    color: white;
+}
+
+@media (max-width: 600px) {
+    #imagen-centro {
+        width: 100%;
+    }
+
+    nav div {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+}

@@ -1,0 +1,130 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f8f9fa; 
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    background-color: #343a40; 
+    height: 70px;
+}
+
+header nav div {
+    align-items: center;
+    gap: 20px; 
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; 
+    transition: color 0.3s ease; 
+}
+
+a:hover {
+    color: #ffc107; 
+}
+
+#sumaCarrito {
+    background-color: #dc3545; 
+    border-radius: 50%;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: white; 
+    font-weight: bold; 
+}
+
+header nav img {
+    height: 30px; 
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+main {
+    padding: 20px; 
+}
+
+#cart-container {
+    max-width: 800px; 
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tarjeta-producto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 10px;
+}
+
+.tarjeta-producto img {
+    height: 80px; 
+    border-radius: 5px;
+}
+
+.tarjeta-producto h3 {
+    flex: 1;
+    margin-left: 10px; 
+}
+
+.tarjeta-producto div {
+    background-color: #e9ecef; 
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#totales {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#totales button {
+    background-color: #007bff; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; 
+}
+
+#totales button:hover {
+    background-color: #0056b3; 
+}
+
+#carrito-vacio {
+    text-align: center;
+    color: #6c757d; 
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#carrito-vacio a {
+    color: #007bff; 
+    text-decoration: underline;
+}
+
+#carrito-vacio a:hover {
+    color: #0056b3;
+}

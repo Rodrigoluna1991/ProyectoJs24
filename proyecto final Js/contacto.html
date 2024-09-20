@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Gomeria GoodYear</title>
+    <link rel="stylesheet" href="contacto.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="index.html">Inicio</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="carrito.html">
+                    <img src="Imagenes/carritoCompras.png" alt="Carrito de Compras">
+                    <span id="sumaCarrito">0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contacto-form">
+            <h1>Contacto</h1>
+            <form id="formularioContacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit" id="enviarFormulario">Enviar</button>
+            </form>
+        </section>
+
+        <section class="mapa">
+            <h2>Nuestra Ubicación</h2>
+            <img src="Imagenes/mapa.png" alt="Mapa de nuestra ubicación">
+        </section>
+    </main>
+
+    <footer>
+        <p>Gomería GoodYear - Todos los derechos reservados &copy; 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            actualizarSumaCarrito();
+        });
+
+        const formulario = document.getElementById('formularioContacto');
+        formulario.addEventListener('submit', function(e) {
+            e.preventDefault(); 
+
+            const nombreUsuario = document.getElementById('nombre').value; 
+
+            Swal.fire({
+                icon: 'success',
+                title: 'Formulario enviado',
+                text: `Gracias, ${nombreUsuario}. Nos pondremos en contacto contigo.`,
+            });
+
+            formulario.reset();
+        });
+    </script>
+</body>
+</html>
+
+

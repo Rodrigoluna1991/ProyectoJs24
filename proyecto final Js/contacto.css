@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1d2b3a; 
+    color: white;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    background-color: #343a40; 
+    height: 70px;
+}
+
+header nav div {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; 
+    transition: color 0.3s ease; 
+}
+
+a:hover {
+    color: #ffc107; 
+}
+
+#sumaCarrito {
+    background-color: #dc3545; 
+    border-radius: 50%;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: white; 
+    font-weight: bold; 
+}
+
+header nav img {
+    height: 30px; 
+}
+
+main {
+    padding: 20px;
+}
+
+.contacto-form h1 {
+    color: #ffc107; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffc107; 
+    color: #1d2b3a; 
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffca2c; 
+}
+
+.mapa h2 {
+    color: #ffc107; 
+    text-align: center;
+    margin: 20px 0;
+}
+
+.mapa img {
+    display: block;
+    width: 600px;
+    height: 600px;
+    height: auto;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #343a40; 
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

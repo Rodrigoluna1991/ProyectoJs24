@@ -1,0 +1,85 @@
+[
+
+    {
+        "id": 1,
+        "marca": "GoodYear",
+        "medida": "Medidas = 195-60-15",
+        "precio": 150000,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRnA4h_u3emRarXiWqcnuDx3oBqyTyUrrAzA&s"
+
+    },
+    {
+        "id": 2,
+        "marca": "GoodYear",
+        "medida": "Medidas = 195-65-14",
+        "precio": 140000,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRnA4h_u3emRarXiWqcnuDx3oBqyTyUrrAzA&s"
+
+    },
+    {
+        "id": 3,
+        "marca": "GoodYear",
+        "medida": "Medidas = 195-55-15",
+        "precio": 145000,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRnA4h_u3emRarXiWqcnuDx3oBqyTyUrrAzA&s"
+
+    },
+    {
+        "id": 4,
+        "marca": "GoodYear",
+        "medida": "Medidas = 195-55-14",
+        "precio": 155000,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRnA4h_u3emRarXiWqcnuDx3oBqyTyUrrAzA&s"
+
+    },
+    {
+        "id": 5,
+        "marca": "GoodYear",
+        "medida": "Medidas = 185-60-14",
+        "precio": 145000,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRnA4h_u3emRarXiWqcnuDx3oBqyTyUrrAzA&s"
+
+    },
+    {
+        "id": 6,
+        "marca": "GoodYear",
+        "medida": "Medidas = 185-55-15",
+        "precio": 130000,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRnA4h_u3emRarXiWqcnuDx3oBqyTyUrrAzA&s"
+
+    },
+    {
+        "id": 7,
+        "marca": "GoodYear",
+        "medida": "Medidas = 195-60-15",
+        "precio": 120000,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRnA4h_u3emRarXiWqcnuDx3oBqyTyUrrAzA&s"
+
+    },
+    {
+        "id": 8,
+        "marca": "GoodYear",
+        "medida": "Medidas = 175-55-13",
+        "precio": 150000,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRnA4h_u3emRarXiWqcnuDx3oBqyTyUrrAzA&s"
+
+    },
+    {
+        "id": 9,
+        "marca": "GoodYear",
+        "medida": "Medidas = 205-60-14",
+        "precio": 180000,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRnA4h_u3emRarXiWqcnuDx3oBqyTyUrrAzA&s"
+
+    },
+    {
+        "id": 10,
+        "marca": "GoodYear",
+        "medida": "Medidas = 185-65-15",
+        "precio": 130000,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRnA4h_u3emRarXiWqcnuDx3oBqyTyUrrAzA&s"
+
+    }
+
+
+]
